@@ -18,5 +18,3 @@
 <a href="https://www.w3schools.com/css/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png" alt="css3" width="30"/></a>
 <a href="https://www.w3schools.com/js/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="javascript" width="35"/> </a>
 <a href="https://reactjs.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="react" width="35"/></a>
-
-![HOAIAN2 GitHub Stats](https://github-readme-stats.vercel.app/api?username=hoaian2&show_icons=true&locale=en&theme=radical)
