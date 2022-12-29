@@ -1,20 +1,20 @@
-# Hi, I'm HOAI AN
-### About me:
-```js
-  while(true) code()
-```
+Hi 👋 My name is HOAI AN
+========================
 
->I’m working on [Instagram Downloader Extension](https://github.com/HOAIAN2/Instagram-Downloader)
+* 🚀  I'm currently working on [Instagram Downloader](http://github.com/HOAIAN2/Instagram-Downloader)
+* 🧠  I'm learning React
 
->I’m currently learning **Reactjs**
+### Skills
 
-### Connect with me:</h3>
 
-<a href="https://instagram.com/hoaian.2202" target="_blank"><img align="center" src="https://static.cdninstagram.com/rsrc.php/v3/yt/r/30PrGfR3xhB.png" width="30" /></a>
-<a href="https://www.youtube.com/HOAIAN02" target="_blank"><img align="center" src="https://www.youtube.com/s/desktop/ff71ea81/img/favicon_96x96.png" width="40" /></a>
+<p align="left">
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
+<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>
+<a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a>
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="36" height="36" alt="React" /></a>
+</p>
 
-### Languages and Tools:
-<a href="https://www.w3schools.com/html/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HTML5_logo_resized.svg/800px-HTML5_logo_resized.svg.png" alt="html5" width="30"/></a>
-<a href="https://www.w3schools.com/css/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png" alt="css3" width="30"/></a>
-<a href="https://www.w3schools.com/js/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="javascript" width="35"/> </a>
-<a href="https://reactjs.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="react" width="35"/></a>
+
+### Socials
+
+<p align="left"> <a href="https://www.github.com/HOAIAN2" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" width="32" height="32" /></a> <a href="http://www.instagram.com/hoaian.2202" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></a> <a href="https://www.youtube.com/c/HOAIAN02" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" width="32" height="32" /></a></p>
