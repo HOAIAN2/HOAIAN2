@@ -1,8 +1,9 @@
 Hi 👋 My name is HOAI AN
 ========================
 
-* 🚀  I'm currently working on [Instagram Downloader](http://github.com/HOAIAN2-Instagram-Downloader) and [
-E-commerce](https://github.com/HOAIAN2/e-commerce)
+### 🚀  I'm currently working on
+* [Instagram Downloader](http://github.com/HOAIAN2-Instagram-Downloader)
+* [College-quiz-app](https://github.com/HOAIAN2/college-quiz-app)
 
 
 ### Socials
