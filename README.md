@@ -1,7 +1,5 @@
 # Hi 👋 My name is HOAI AN
 
-========================
-
 ## I solve my problem, then make it open source
 
 ## 🚀  I'm currently working on
