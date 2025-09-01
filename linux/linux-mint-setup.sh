@@ -11,7 +11,8 @@
 # Fonts
 sudo apt install -y ttf-mscorefonts-installer \
     fonts-jetbrains-mono \
-    fonts-inter
+    fonts-inter \
+    fonts-roboto
 
 # Command line tools
 sudo apt purge -y vim-tiny && sudo apt autoremove
