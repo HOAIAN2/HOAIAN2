@@ -21,11 +21,11 @@ sudo apt install -y neovim \
 
 # GUI apps that doesn't have flatpak official Flatpak or just make sense to install system package
 sudo apt install -y audacity \
-    gparted
+    gparted \
+    gnome-clocks \
+    gnome-snapshot # Disable if there's no webcam
 
 # Flatpak apps setup
-flatpak install flathub -y org.gnome.Snapshot # Disable if there's no webcam
-flatpak install flathub -y org.gnome.clocks
 flatpak install flathub -y com.github.tchx84.Flatseal
 flatpak install flathub -y org.gimp.GIMP
 flatpak install flathub -y org.kde.kdenlive
