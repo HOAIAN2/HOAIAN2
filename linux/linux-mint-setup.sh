@@ -31,6 +31,7 @@ flatpak install flathub -y org.gimp.GIMP
 flatpak install flathub -y org.kde.kdenlive
 flatpak install flathub -y org.inkscape.Inkscape
 flatpak install flathub -y com.obsproject.Studio
+flatpak install flathub -y com.github.wwmm.easyeffects
 
 # Fix flatpak mouse inconsistent
 mkdir -p ~/.local/share/icons/default
