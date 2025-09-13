@@ -6,6 +6,8 @@
 # fcitx not remember font size, here is how to fix:
 # Fictx Configuration > Global Config > Show Advandced Options > Program > Seconds sleep before fcitx really start
 
+# ! Remmeber to disable automatic screen rotation, otherwise OBS will lag so much
+
 # cinnamon_cursor_size=$(gsettings get org.cinnamon.desktop.interface cursor-size)
 
 # Fonts
