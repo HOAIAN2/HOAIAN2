@@ -14,6 +14,7 @@
 sudo apt install -y ttf-mscorefonts-installer \
     fonts-jetbrains-mono \
     fonts-inter \
+    fonts-firacode \
     fonts-roboto
 
 # Command line tools
@@ -36,6 +37,7 @@ flatpak install flathub -y org.kde.kdenlive
 flatpak install flathub -y org.inkscape.Inkscape
 flatpak install flathub -y com.obsproject.Studio
 flatpak install flathub -y com.github.wwmm.easyeffects
+flatpak install flathub -y com.usebruno.Bruno
 
 # Fix flatpak mouse inconsistent
 mkdir -p ~/.local/share/icons/default
