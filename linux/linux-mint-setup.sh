@@ -20,6 +20,7 @@ sudo apt install -y ttf-mscorefonts-installer \
 sudo apt purge -y vim-tiny && sudo apt autoremove
 sudo apt install -y neovim \
     fzf \
+    nmap \
     ffmpeg
 
 # GUI apps that doesn't have flatpak official Flatpak or just make sense to install system package
