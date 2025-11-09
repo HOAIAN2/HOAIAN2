@@ -22,6 +22,7 @@ sudo apt purge -y vim-tiny && sudo apt autoremove
 sudo apt install -y neovim \
     fzf \
     nmap \
+    btop \
     ffmpeg
 
 # GUI apps that doesn't have flatpak official Flatpak or just make sense to install system package
@@ -38,6 +39,7 @@ flatpak install flathub -y org.inkscape.Inkscape
 flatpak install flathub -y com.obsproject.Studio
 flatpak install flathub -y com.github.wwmm.easyeffects
 flatpak install flathub -y com.usebruno.Bruno
+flatpak install flathub -y io.github.alainm23.planify
 
 # Fix flatpak mouse inconsistent
 mkdir -p ~/.local/share/icons/default
