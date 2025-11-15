@@ -57,7 +57,14 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 parse_git_branch() {
-    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+    local current_branch=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
+    if [[ -n "$(git status --porcelain)" ]]; then
+        current_branch="($current_branch *)"
+        echo -e "\e[\033[01;93m$current_branch\e[0m"
+    else
+        current_branch="($current_branch)"
+        echo -e "\e[\033[01;93m$current_branch\e[0m"
+    fi
 }
 
 if [ "$color_prompt" = yes ]; then
@@ -68,7 +75,7 @@ if [ "$color_prompt" = yes ]; then
     PS1+='\[\033[01;32m\]\h'
     PS1+='\[\033[00m\]:'
     PS1+='\[\033[01;34m\]\w'
-    PS1+='\[\033[01;93m\]$(parse_git_branch)'
+    PS1+='$(parse_git_branch)'
     PS1+='\[\033[00m\]\$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w$(parse_git_branch)\$ '
