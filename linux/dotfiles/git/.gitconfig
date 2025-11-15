@@ -1,0 +1,6 @@
+[user]
+    name = Lê Hoài Ân
+    email = 98139595+HOAIAN2@users.noreply.github.com
+    signingkey = BC6F67C039E9CD18
+[commit]
+    gpgsign = true

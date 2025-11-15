@@ -40,6 +40,7 @@ flatpak install flathub -y com.obsproject.Studio
 flatpak install flathub -y com.github.wwmm.easyeffects
 flatpak install flathub -y com.usebruno.Bruno
 flatpak install flathub -y io.github.alainm23.planify
+flatpak install flathub -y md.obsidian.Obsidian
 
 # Fix flatpak mouse inconsistent
 mkdir -p ~/.local/share/icons/default
