@@ -57,6 +57,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 parse_git_branch() {
+    git rev-parse --is-inside-work-tree >/dev/null 2>&1 || return
     local current_branch=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
     if [[ -n "$(git status --porcelain)" ]]; then
         current_branch="($current_branch *)"
