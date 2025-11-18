@@ -56,3 +56,11 @@ Inherits=Bibata-Modern-Classic' >> ~/.local/share/icons/default/index.theme
 # Post install setup
 ./shared/dns-filter.sh
 ./shared/ufw-rules.sh
+
+# Restore bash config
+cp ~.bashrc ~.bashrc.bak
+cp dotfiles/bash/.bashrc ~
+cp dotfiles/bash/.bash_aliases ~
+
+# Restore git config
+cp dotfiles/git/.gitconfig ~
