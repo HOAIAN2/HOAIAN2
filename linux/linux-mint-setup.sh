@@ -28,6 +28,7 @@ sudo apt install -y neovim \
 # GUI apps that doesn't have flatpak official Flatpak or just make sense to install system package
 sudo apt install -y audacity \
     gparted \
+    filezilla \
     gnome-clocks \
     gnome-snapshot # Disable if there's no webcam
 
@@ -41,6 +42,7 @@ flatpak install flathub -y com.github.wwmm.easyeffects
 flatpak install flathub -y com.usebruno.Bruno
 flatpak install flathub -y io.github.alainm23.planify
 flatpak install flathub -y md.obsidian.Obsidian
+flatpak install flathub -y org.localsend.localsend_app
 
 # Fix flatpak mouse inconsistent
 mkdir -p ~/.local/share/icons/default
