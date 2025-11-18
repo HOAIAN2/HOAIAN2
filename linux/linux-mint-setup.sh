@@ -52,3 +52,7 @@ Inherits=Bibata-Modern-Classic' >> ~/.local/share/icons/default/index.theme
 
 # cinnamon_cursor_size * display_scale, should set in flatseal
 # flatpak override --env=XCURSOR_SIZE=48
+
+# Post install setup
+./shared/dns-filter.sh
+./shared/ufw-rules.sh
