@@ -1,5 +1,7 @@
 #!/bin/bash
 
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
 # This script not cover external packages like VsCode, Docker, etc.
 # Some thing should be config after run this script for some reasons.
 
@@ -48,19 +50,19 @@ flatpak install flathub -y org.localsend.localsend_app
 mkdir -p ~/.local/share/icons/default
 printf '[Icon Theme]
 Name=Bibata-Modern-Classic
-Inherits=Bibata-Modern-Classic' >> ~/.local/share/icons/default/index.theme
+Inherits=Bibata-Modern-Classic' > ~/.local/share/icons/default/index.theme
 
 # cinnamon_cursor_size * display_scale, should set in flatseal
 # flatpak override --env=XCURSOR_SIZE=48
 
 # Post install setup
-./shared/dns-filter.sh
-./shared/ufw-rules.sh
+$SCRIPT_DIR/shared/dns-filter.sh
+$SCRIPT_DIR/shared/ufw-rules.sh
 
 # Restore bash config
-cp ~.bashrc ~.bashrc.bak
-cp dotfiles/bash/.bashrc ~
-cp dotfiles/bash/.bash_aliases ~
+cp ~/.bashrc ~/.bashrc.bak
+cp $SCRIPT_DIR/dotfiles/bash/.bashrc ~
+cp $SCRIPT_DIR/dotfiles/bash/.bash_aliases ~
 
 # Restore git config
-cp dotfiles/git/.gitconfig ~
+cp $SCRIPT_DIR/dotfiles/git/.gitconfig ~
