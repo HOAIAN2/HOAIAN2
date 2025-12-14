@@ -66,3 +66,7 @@ cp $SCRIPT_DIR/dotfiles/bash/.bash_aliases ~
 
 # Restore git config
 cp $SCRIPT_DIR/dotfiles/git/.gitconfig ~
+
+# Restore nvim config
+mkdir -p ~/.config/nvim
+cp $SCRIPT_DIR/dotfiles/nvim/init.lua ~/.config/nvim
