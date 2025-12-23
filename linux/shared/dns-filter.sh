@@ -2,7 +2,7 @@
 
 # Replace default dns by a dns that support ads block
 
-DNS_SERVICE=dns.adguard.com
+DNS_SERVICE=dns.adguard-dns.com
 
 DNS_FILTER_IP=$(ping $DNS_SERVICE -4 -c 1 | grep "$DNS_SERVICE" | head -1 | awk '{print $3}' | sed 's/[()]//g')
 
