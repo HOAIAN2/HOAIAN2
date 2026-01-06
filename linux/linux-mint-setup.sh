@@ -56,7 +56,7 @@ Inherits=Bibata-Modern-Classic' > ~/.local/share/icons/default/index.theme
 # flatpak override --env=XCURSOR_SIZE=48
 
 # Post install setup
-$SCRIPT_DIR/shared/dns-filter.sh
+# $SCRIPT_DIR/shared/dns-filter.sh
 $SCRIPT_DIR/shared/ufw-rules.sh
 
 # Restore bash config
