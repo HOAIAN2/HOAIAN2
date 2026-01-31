@@ -60,11 +60,9 @@ parse_git_branch() {
     git rev-parse --is-inside-work-tree >/dev/null 2>&1 || return
     local current_branch=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
     if [[ -n "$(git status --porcelain)" ]]; then
-        current_branch="($current_branch *)"
-        echo -e "\e[\033[01;93m$current_branch\e[0m"
+        echo "($current_branch *)"
     else
-        current_branch="($current_branch)"
-        echo -e "\e[\033[01;93m$current_branch\e[0m"
+        echo "($current_branch)"
     fi
 }
 
@@ -76,7 +74,7 @@ if [ "$color_prompt" = yes ]; then
     PS1+='\[\033[01;32m\]\h'
     PS1+='\[\033[00m\]:'
     PS1+='\[\033[01;34m\]\w'
-    PS1+='$(parse_git_branch)'
+    PS1+='\[\033[01;93m\]$(parse_git_branch)'
     PS1+='\[\033[00m\]\$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w$(parse_git_branch)\$ '
