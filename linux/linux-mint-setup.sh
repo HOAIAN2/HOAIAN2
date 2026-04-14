@@ -27,6 +27,7 @@ sudo apt install -y neovim \
     btop \
     vainfo \
     tree \
+    python3-pip \
     ffmpeg
 
 # GUI apps that doesn't have flatpak official Flatpak or just make sense to install system package
