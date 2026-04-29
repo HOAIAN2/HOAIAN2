@@ -27,7 +27,6 @@ sudo apt install -y neovim \
     btop \
     vainfo \
     tree \
-    python3-pip \
     jq \
     ffmpeg
 
