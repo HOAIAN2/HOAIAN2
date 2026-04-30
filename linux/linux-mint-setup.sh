@@ -74,3 +74,7 @@ cp $SCRIPT_DIR/dotfiles/git/.gitconfig ~
 # Restore nvim config
 mkdir -p ~/.config/nvim
 cp $SCRIPT_DIR/dotfiles/nvim/init.lua ~/.config/nvim
+
+# Restore tmux config
+mkdir -p ~/.config/tmux
+cp $SCRIPT_DIR/dotfiles/tmux/tmux.conf ~/.config/tmux
