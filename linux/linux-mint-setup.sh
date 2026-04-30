@@ -28,6 +28,7 @@ sudo apt install -y neovim \
     vainfo \
     tree \
     jq \
+    tmux \
     ffmpeg
 
 # GUI apps that doesn't have flatpak official Flatpak or just make sense to install system package
