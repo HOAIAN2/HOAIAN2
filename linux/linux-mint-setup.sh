@@ -28,6 +28,8 @@ sudo apt install -y neovim \
     vainfo \
     tree \
     jq \
+    bat \
+    alacritty \
     tmux \
     ffmpeg
 
@@ -78,3 +80,7 @@ cp $SCRIPT_DIR/dotfiles/nvim/init.lua ~/.config/nvim
 # Restore tmux config
 mkdir -p ~/.config/tmux
 cp $SCRIPT_DIR/dotfiles/tmux/tmux.conf ~/.config/tmux
+
+# Restore tmux config
+mkdir -p ~/.config/alacritty
+cp $SCRIPT_DIR/dotfiles/alacritty/alacritty.toml ~/.config/alacritty
