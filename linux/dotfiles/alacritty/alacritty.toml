@@ -4,8 +4,11 @@ import = [
 
 live_config_reload = true
 
+[env]
+TERM = "xterm-256color"
+
 [window]
-# decorations = "None"
+decorations = "Full"
 opacity = 1
 blur = false
 
