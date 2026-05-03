@@ -81,6 +81,12 @@ cp $SCRIPT_DIR/dotfiles/nvim/init.lua ~/.config/nvim
 mkdir -p ~/.config/tmux
 cp $SCRIPT_DIR/dotfiles/tmux/tmux.conf ~/.config/tmux
 
-# Restore tmux config
+# Restore alacritty config
 mkdir -p ~/.config/alacritty
 cp $SCRIPT_DIR/dotfiles/alacritty/alacritty.toml ~/.config/alacritty
+
+# Temporarily fix alacritty auto focus
+mkdir -p ~/.local/bin
+cp $SCRIPT_DIR/shared/launch-alacritty.sh ~/.local/bin/
+cp /usr/share/applications/Alacritty.desktop ~/.local/share/applications
+sed -i "s|^Exec=alacritty|Exec=bash -c ~/.local/bin/launch-alacritty.sh|g" ~/.local/share/applications/Alacritty.desktop
