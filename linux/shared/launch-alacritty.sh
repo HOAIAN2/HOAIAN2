@@ -8,18 +8,9 @@
 alacritty &
 ALAC_PID=$!
 
-sleep 0.0
+# Wait until a visible window for this PID exists
+WINDOW_ID=$(xdotool search --sync --pid "$ALAC_PID" | head -n 1)
 
-for i in {1..100}; do
-    WINDOW_ID=$(wmctrl -lp | awk -v pid="$ALAC_PID" '$3 == pid {print $1}')
+# sleep 0.0
 
-    if [ -z "$WINDOW_ID" ]; then
-        WINDOW_ID=$(wmctrl -l | grep "Alacritty" | tail -1 | awk '{print $1}')
-    fi
-
-    if [ -n "$WINDOW_ID" ]; then
-        wmctrl -i -R "$WINDOW_ID" 
-        break
-    fi
-    sleep 0.05
-done
+wmctrl -i -R "$WINDOW_ID"

@@ -30,6 +30,7 @@ sudo apt install -y neovim \
     jq \
     bat \
     alacritty \
+    xdotool \
     tmux \
     ffmpeg
 
