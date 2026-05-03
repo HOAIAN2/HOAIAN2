@@ -1,5 +1,5 @@
 vim.wo.number = true
-vim.opt.clipboard = 'unnamedplus'
+-- vim.opt.clipboard = 'unnamedplus'
 
 vim.opt.termguicolors = true
 
