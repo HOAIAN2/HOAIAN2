@@ -40,5 +40,4 @@ family = "JetBrains Mono"
 style = "Bold Italic"
 
 [selection]
-save_to_clipboard = true
-
+save_to_clipboard = false
