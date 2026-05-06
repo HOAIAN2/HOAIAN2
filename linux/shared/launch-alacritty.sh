@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # --- THE "FOCUS FIXER" FOR ALACRITTY ---
 # Cinnamon (Muffin) has this weird bug where it won't focus Alacritty windows on launch.

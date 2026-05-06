@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # LocalSend rules
 sudo ufw allow in 53317/tcp
