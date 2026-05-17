@@ -84,7 +84,7 @@ cp $SCRIPT_DIR/dotfiles/tmux/tmux.conf ~/.config/tmux
 
 # Restore alacritty config
 mkdir -p ~/.config/alacritty
-cp $SCRIPT_DIR/dotfiles/alacritty/alacritty.toml ~/.config/alacritty
+cp -r $SCRIPT_DIR/dotfiles/alacritty/* ~/.config/alacritty
 
 # Temporarily fix alacritty auto focus
 mkdir -p ~/.local/bin

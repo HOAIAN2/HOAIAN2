@@ -1,0 +1,70 @@
+[colors.primary]
+background = "#282c34"
+foreground = "#abb2bf"
+dim_foreground = "#828997"
+bright_foreground = "#e6efff"
+
+[colors.vi_mode_cursor]
+text = "#1e2127"
+cursor = "#98c379"
+
+[colors.selection]
+text = "#abb2bf"
+background = "#3e4451"
+
+[colors.search.matches]
+foreground = "#1e2127"
+background = "#e5c07b"
+
+[colors.search.focused_match]
+foreground = "#1e2127"
+background = "#98c379"
+
+[colors.footer_bar]
+background = "#21252b"
+foreground = "#abb2bf"
+
+[colors.hints.start]
+foreground = "#1e2127"
+background = "#e5c07b"
+
+[colors.hints.end]
+foreground = "#abb2bf"
+background = "#3e4451"
+
+[colors.line_indicator]
+foreground = "None"
+background = "None"
+
+# Normal ANSI colors
+[colors.normal]
+black = "#282c34"
+red = "#e06c75"
+green = "#98c379"
+yellow = "#d19a66"
+blue = "#61afef"
+magenta = "#c678dd"
+cyan = "#56b6c2"
+white = "#abb2bf"
+
+# Bright ANSI colors
+[colors.bright]
+black = "#5c6370"
+red = "#ff7b86"
+green = "#b8e994"
+yellow = "#f6c177"
+blue = "#7dcfff"
+magenta = "#d291ff"
+cyan = "#7fe7f2"
+white = "#ffffff"
+
+# Dim ANSI colors
+[colors.dim]
+black = "#1b1f27"
+red = "#c94f60"
+green = "#6f9654"
+yellow = "#a1743c"
+blue = "#4b88cc"
+magenta = "#9a5cb4"
+cyan = "#3f8f93"
+white = "#7d8590"
